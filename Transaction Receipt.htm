@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Transaction Receipt</title>
+	<link href="Transaction%20Receipt_files/anet.css" type="text/css" rel="stylesheet">
+	<style type="text/css">
+	DIV.ReceiptPage { width: 580px; margin: 5px; padding: 5px; border: #828282 1px solid; }
+	.TopLinks TD { text-align: right; }
+	.SectionBar TD { background-color: #a0a0a0; color: #ffffff; padding-left: 4px; padding-top: 2px;, padding-bottom: 2px; }
+	.SpacerRow TD { height: 6px; line-height: 6px; }
+	.OrderRow TD { vertical-align: top; }
+	TD.OrderLabel1, TD.OrderLabel2 { width: 20%; }
+	TD.OrderVal1, TD.OrderVal2 {width: 30%; }
+	.BillShipLabel TD { font-weight: bold; }
+	.BillShipVal TD { vertical-align: top; }
+	TD.BillShipCol, TD.BillShipCol2 { width: 50% }
+	TD.Amounts { text-align: right; }	
+	TR.Amount TD { text-align: right; }
+	TR.AmountBold TD { text-align: right; font-weight: bold; }
+	TD.PaymentLabel { width: 150px; }
+	.LineItemHeaderRow TD { font-weight: bold; }
+	.LineItemRow TD, .LineItemRow2 TD { vertical-align: top; }
+	TD.LineItemQty { text-align: right; }
+	TD.LineItemTaxable { text-align: center; }
+	TD.LineItemUnitPrice { text-align: right; }
+	TD.LineItemTotal { text-align: right; }
+	</style>
+	<script type="text/javascript" language="javascript">
+		function printpage() {
+			document.getElementById('printlink').style.visibility  = 'hidden';
+			window.print();
+			window.close();
+		}
+	</script>
+</head>
+
+<body>
+<form name="Form1" method="post" action="./transactionreceipt.aspx?transid=60038515360" id="Form1">
+<div>
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="JALyw5AcL3eXoF8nlmVidh+pxbwWr0cswBcvhSPZNjcFrDyRJ+6k11zbQShbvjxz13YfhMcHkWfvfXzo4wg1WU9q+Wope3JO3eyXBPJvclXK+uLgyXFwq63AAkfErY5gIJ/cUbbHegCrxph/79S0+k1WGHg=" type="hidden">
+</div>
+
+<script type="text/javascript"> var helplink = helplink || "/help";</script>
+<div>
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A9904EF0" type="hidden">
+	<input name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" type="hidden">
+</div>
+
+
+
+
+<div class="ReceiptPage">
+<table width="100%">
+	<tbody><tr class="TopLinks">
+		<td colspan="2">
+			<a href="javascript:;" id="printlink" onclick="printpage()">Print Receipt</a>
+		</td>
+	</tr>
+	<tr class="MerchantSection">
+		<td colspan="2">
+			<table width="100%">
+				<tbody><tr>
+					<td colspan="2" class="MainHeaderFont">
+						Merchant: <span id="MerchantName">Nazmus Sakib</span>
+					</td>
+				</tr>
+				<tr>
+					<td style="width: 50%">
+					<span id="MerchantAddress">1 Main Street<br>Bellevue, WA 98004<br>US</span>
+					</td>
+					<td><span id="MerchantPhone">425-555-1212</span></td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr class="SectionBar">
+		<td colspan="2">
+			Order Information
+		</td>
+	</tr>
+	<tr class="OrderSection">
+		<td colspan="2">
+			<table width="100%">
+				<tbody><tr class="OrderRow">
+					<td class="OrderLabel1">
+					Description:
+					</td>
+					<td colspan="3" style="word-wrap: break-word; word-break: break-all;">
+					<span id="TranDescription">Order test</span>
+					</td>
+				</tr>
+				<tr class="DataRow">
+					<td class="OrderLabel1">
+					Order Number:
+					</td>
+					<td class="OrderVal1">
+					<span id="SplitTenderID"></span>
+					</td>
+					<td class="OrderLabel2">
+					P.O. Number:
+					</td>
+					<td class="OrderVal2">
+					<span id="PONum"></span>
+					</td>
+				</tr>
+				<tr class="DataRow">
+					<td class="OrderLabel1">
+					Customer ID:
+					</td>
+					<td class="OrderVal1">
+					<span id="CustID">1</span>
+					</td>
+					<td class="OrderLabel2">
+					Invoice Number:
+					</td>
+					<td class="OrderVal2">
+					<span id="Invoice">1</span>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr class="Line">
+		<td colspan="2"><hr></td>
+	</tr>
+	<tr class="BillShipSection">
+		<td colspan="2">
+			<table width="100%">
+				<tbody><tr class="BillShipLabel">
+					<td class="BillShipCol1">
+					Billing Information
+					</td>
+					<td class="BillShipCol2">
+					Shipping Information
+					</td>
+				</tr>
+				<tr class="BillShipVal">
+					<td class="BillShipCol1">
+					<span id="BillToFirstName">Nazmus</span> <span id="BillToLastName">Sakib</span><br><span id="BillToCompany">sjinnovation</span><br><span id="BillToStreetAddress">sylhet</span><br><span id="BillToCity">sylhet</span>, <span id="BillToStateProv">sylhet</span> <span id="BillToZip">3100</span><br><span id="BillToCountry">bangladesh</span><br>Phone: 01751701100<br>sakibn555@gmail.com
+					</td>
+					<td class="BillShipCol2">
+					<span id="ShipToFirstName">Nazmus</span> <span id="ShipToLastName">Sakib</span><br><span id="ShipToCompany">sjinnovation</span><br><span id="ShipToStreetAddress">sylhet</span><br><span id="ShipToCity">sylhet</span>, <span id="ShipToStateProv">sylhet</span> <span id="ShipToZip">3100</span><br><span id="ShipToCountry">bangladesh</span>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr class="Line">
+		<td colspan="2"><hr></td>
+	</tr>
+	<tr class="LineItemSection">
+		<td colspan="2">
+			<table width="100%">
+						
+    
+    						
+                        		
+			</table>
+		</td>
+	</tr>
+	
+	<tr class="AmountsSection">
+		<td colspan="2" class="Amounts">
+			<table align="right">
+				<tbody><tr class="Amount">
+					<td class="AmountLabel">
+					Shipping:
+					</td>
+					<td class="AmountDescr">
+					<span id="ShippingDescription"></span>
+					</td>
+					<td class="AmountVal">
+					<span id="ShippingAmountVal">0.00</span>
+					</td>
+				</tr>
+				
+                
+				<tr class="Amount">
+					<td class="AmountLabel">
+					Tax:
+					</td>
+					<td class="AmountDescr">
+					<span id="TaxDescription"></span>
+					</td>
+					<td class="AmountVal">
+					<span id="TaxAmountVal">0.00</span>
+					</td>
+				</tr>
+                
+                
+				<tr class="AmountBold">
+					<td class="AmountLabel">
+					Total:
+					</td>
+					<td class="AmountDescr">
+					</td>
+					<td class="AmountVal">
+					<span id="TotalAmountVal">USD 10.00</span>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr class="SpacerRow">
+		<td colspan="2">&nbsp;</td>
+	</tr>
+	<tr class="SectionBar">
+		<td colspan="2">
+			<span id="PaymentMethodBar">Payment Information</span>
+		</td>
+	</tr>
+	<tr class="PaymentSection">
+		<td colspan="2">
+			<table>
+                
+				<tbody><tr class="PaymentRow">
+					<td class="PaymentLabel">
+					Date/Time:
+					</td>
+					<td class="PaymentVal">
+					<span id="AuthTime">17-Jan-2018 12:10:15 PST</span>
+					</td>
+				</tr>
+				<tr class="PaymentRow">
+					<td class="PaymentLabel">
+					Transaction ID:
+					</td>
+					<td class="PaymentVal">
+					<span id="TransID">60038515360</span>
+					</td>
+				</tr>
+				
+                <tr class="PaymentRow">
+					<td class="PaymentLabel">
+					Transaction Type:
+					</td>
+					<td class="PaymentVal">
+					<span id="TransType">Authorization w/ Auto Capture</span>
+					</td>
+				</tr>
+				<tr class="PaymentRow">
+					<td class="PaymentLabel">
+					Transaction Status:
+					</td>
+					<td class="PaymentVal">
+					<span id="TranStatusDescription">Captured/Pending Settlement</span>
+					</td>
+				</tr>
+				
+				<tr class="PaymentRow">
+					<td class="PaymentLabel">
+					Authorization Code:
+					</td>
+					<td class="PaymentVal">
+					<span id="AuthCode">PY8887</span>
+					</td>
+				</tr>
+				
+				<tr class="PaymentRow">
+					<td class="PaymentLabel">
+					Payment Method:
+					</td>
+					<td class="PaymentVal">
+					<span id="PaymentMethodVal">Visa&nbsp;XXXX1111</span>
+					</td>
+				</tr>
+				
+			</tbody></table>
+		</td>
+	</tr>
+    
+</tbody></table>
+</div>
+
+
+</form>
+
+
+</body></html>

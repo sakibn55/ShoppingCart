@@ -1,0 +1,1382 @@
+BODY 
+{
+	margin-top: 0px; 
+	margin-left: 0px; 
+	margin-right: 0px; 
+	background-position: top left; 
+	background: #FFFFFF;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+FORM
+{
+	margin : 0px; 
+}
+HR
+{
+	height: 1px; 
+	border: 0; 
+	border-top: 1px solid #CCCCCC; 
+}
+img
+{
+	border: 0;
+}
+TR,TD,SELECT,INPUT
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+P
+{
+	margin: 0px 0px 8px 0px;
+	padding: 0px 0px 0px 0px;
+}
+A
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0066CC;
+}
+A.Small
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0066CC;
+}
+DIV.Main
+{
+	width: 776px;
+	border: 0;
+	margin: 0px; 
+	PADDING: 0px;
+}
+#MainWin
+{
+    background-color: #ffffff;
+	position:relative; 
+	width: 100%;
+	height: 100%;
+}
+DIV.Left
+{
+	float: left;
+}
+DIV.Right
+{
+	float: right;
+	text-align: right;
+}
+DIV.Clearer
+{
+	clear: left;
+	line-height: 0px;
+	height: 0px;
+}
+DIV.Clear
+{
+	clear: left;
+}
+TD.Main
+{	
+    height: 100%;
+    background-color: #ffffff;
+}
+.Content
+{	
+	width: 776px;
+}
+INPUT.Button
+{
+    WIDTH: 80px
+}
+INPUT.ButtonWide
+{
+    WIDTH: 120px
+}
+INPUT.ButtonWide2
+{
+    WIDTH: 200px
+}
+.DefaultSpacing
+{
+	height: 8px;
+	line-height: 0px;
+}
+.Pad
+{
+	padding-bottom: 10px;
+}
+IMG.BlackBorder 
+{
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #ababab;
+}
+.DefaultFont
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	FONT-WEIGHT: normal;
+	color: #000000;
+}
+.DefaultBoldFont
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+   	FONT-WEIGHT: bold
+}
+.DefaultSmallFont
+{
+	font-family: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+}
+.LargeFont
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    COLOR: #000000;
+}
+TR.AlternateRow
+{
+    BACKGROUND-COLOR: #E3E3E3;
+}
+.SmallHeaderFont
+{
+    BACKGROUND-COLOR: #E3E3E3;
+    BORDER-TOP: #666666 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: Normal;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.SubHeaderFont
+{
+	background-color: #F2F2F2;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+}
+.LinedItem
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding: 4px;
+}
+.PageHeaderFont
+{
+    COLOR: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;	
+}
+.MainHeaderFont
+{
+	COLOR: #336699;
+	font-family : Georgia, serif;
+	FONT-SIZE: 16pt;
+	FONT-WEIGHT: lighter;
+}
+
+.SideBarBGColor
+{
+    BACKGROUND-COLOR: #dae6ed
+}
+.TblHeaderFont
+{
+    	BACKGROUND-COLOR: #cccccc;
+    	COLOR: #0033AA;
+	font-family: Arial, Helvetica, sans-serif;
+    	FONT-SIZE: 8pt;
+    	FONT-WEIGHT: bold
+}
+.TblSubHeaderFont
+{
+    	BACKGROUND-COLOR: #dae6ed;
+    	COLOR: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+    	FONT-SIZE: 8pt;
+    	FONT-WEIGHT: bold
+}
+.TblRowFont
+{
+    	COLOR: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+    	FONT-SIZE: 8pt
+}
+.TblRowFontWithBGColor
+{
+    	BACKGROUND-COLOR: #efefef;
+    	COLOR: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+    	FONT-SIZE: 8pt
+}
+.TblContent
+{
+    	BORDER-BOTTOM: medium none;
+    	BORDER-LEFT: medium none;
+    	BORDER-RIGHT: medium none;
+    	BORDER-TOP: medium none;
+    	MARGIN: 0px;
+    	PADDING-BOTTOM: 0px;
+    	PADDING-LEFT: 0px;
+    	PADDING-RIGHT: 0px;
+    	PADDING-TOP: 0px
+}
+
+.RedLink
+{
+	COLOR: RED;
+    FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, sans-serif;
+    TEXT-DECORATION: none
+}
+
+A.Nav:link
+{
+	COLOR: #FFFFFF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+A.Nav:visited
+{
+	COLOR: #FFFFFF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+A.Nav:hover
+{
+	COLOR: #FFFFFF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+A.Nav:active
+{
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+A.TblLink:link
+{
+    COLOR: #0033AA;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline
+}
+A.TblLink:visited
+{
+    COLOR: #0033AA;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline
+}
+A.TblLink:hover
+{
+    COLOR: #0033AA;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline
+}
+A.TblLink:active
+{
+    COLOR: #0033AA;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE:  8pt;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline
+}
+A.menu:link
+{
+    COLOR: royalblue;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: 1pt;
+    TEXT-DECORATION: none
+}
+A.menu:visited
+{
+    COLOR: royalblue;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: 1pt;
+    TEXT-DECORATION: none
+}
+A.menu:hover
+{
+    COLOR: skyblue;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: 1pt;
+    TEXT-DECORATION: none
+}
+A.menu:active
+{
+    COLOR: royalblue;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: 1pt;
+    TEXT-DECORATION: none
+}
+.SmallErrorFont
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: #ff0000
+}
+.DefaultErrorFont, .ErrorFont
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ff0000
+}
+.HorizontalLine {
+	background-color: #666666;
+	height: 1px;
+}
+.WhiteLine {
+	background-color: #FFFFFF;
+	height: 1px;
+}
+.TableLine {
+	background-color: #CCCCCC;
+	height: 1px;
+}
+.TextSmB {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+}
+.MultiLineLabel
+{
+	padding-top: 4px;
+}
+.WCell {
+	background-color: #FFFFFF;
+	height: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.G1Cell {
+	background-color: #F2F2F2;
+	height: 26px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.G1LCell 
+{
+	background-color: #F2F2F2;
+	height: 26px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: bold;
+	font-weight: bold;
+	color: #666666;
+}
+.G2Cell {
+	background-color: #E6E6E6;
+	height: 26px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.G3Cell {
+	background-color: #DBD9DA;
+	height: 26px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: right;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.B1LCell {
+	background-color: #E5EFFA;
+	height: 26px;
+	padding-left: 8px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.B2LCell {
+	background-color: #E5EFFA;
+	height: 39px;
+	padding-left: 8px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.B2Cell {
+	background-color: #DAE4EE;
+	height: 26px;
+	padding-right: 8px;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.B3Cell {
+	background-color: #CFD8E3;
+	height: 26px;
+	padding-right: 8px;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.BLCell {
+	background-color: #0066CC;
+	padding-right: 8px;
+	Padding-Left: 8px;
+	text-align: center;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: bold;
+	font-weight: bold;
+	color: #ffffff;
+}
+.R1LCell {
+	background-color: #FAE5EC;
+	height: 39px;
+	padding-left: 8px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.R2Cell {
+	background-color: #EFD9E0;
+	height: 39px;
+	padding-right: 8px;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.R3Cell {
+	background-color: #E4CED5;
+	height: 39px;
+	padding-right: 8px;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.RLCell {
+	background-color: #CC0043;
+	text-align: center;
+	line-height: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	padding-right: 8px;
+	Padding-Left: 8px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.Merch {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #003366;
+}
+.PopupWindow
+{
+	border: solid 10px #ffffff;
+}
+TABLE.Box
+{
+	border: solid 1px #cccccc;
+	margin-bottom: 15px;
+}
+DIV.Box
+{
+	position:relative; 
+	left:7px; 
+	top:8px; 
+	background-color:#FFFFFF; 
+	z-index:1;
+	overflow: visible;
+}
+HR.Small
+{ 
+	height: 1px; 
+	border: 0; 
+	border-top: 1px solid #CCCCCC; 
+}
+HR.SmallDark
+{ 
+	height: 1px; 
+	border: 0; 
+	border-top: 1px solid #666666; 
+}
+.Disabled
+{
+	color: #ACA899;
+}
+
+/* Styles used for displaying recordset in a table */
+.TableColHeader
+{
+	background-color: #E3E3E3;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	padding: 6px 5px 6px 5px;
+	border-top: solid 1px #FFFFFF;
+	border-right: inset 2px #FFFFFF;
+}
+.TableColHeaderLast
+{
+	background-color: #E3E3E3;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	padding: 6px 5px 6px 5px;
+	border-top: solid 1px #FFFFFF;
+}
+.TableItem
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+}
+.TableLineItem
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	border-bottom: solid 1px #CCCCCC;
+}
+.TableItemSmall
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+}
+.TableLineItemSmall
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+	border-bottom: solid 1px #CCCCCC;
+}
+.TblNavRow
+{
+	PADDING-LEFT: 5px;
+	PADDING-RIGHT: 5px;
+	BACKGROUND-COLOR: #4379B2; 
+	COLOR: #FFFFFF;
+	font-family: Arial, Verdana, Helvetica, Geneva, sans-serif;
+    FONT-SIZE: 9pt
+}
+
+/* Styles used for header*/
+.HeaderLeft
+{
+	background-image: url(/UI/themes/anet/images/authorizenet_logo.gif);
+	width: 176px;
+	height: 75px;
+}
+.HeaderRight
+{
+	width: 600px;
+	height: 75px;
+}
+/* END - Styles used for header*/
+
+.ProgressBar
+{
+	background-color: #A9CDF1;
+}
+DIV.Line
+{
+	margin: 0px 0px 0px 0px;
+	padding: 4px 0px 0px 0px;
+	clear: both;
+}
+P.Padded
+{
+	margin: 0px 0px 8px 0px;
+	padding: 4px 0px 0px 0px;
+}
+P.Indent
+{
+	margin-left: 20px;
+}
+#PageHeader
+{
+	margin: 0px 0px 0px 0px;
+}
+#Title
+{
+	COLOR: #336699;
+	font-family : Georgia, serif;
+	FONT-SIZE: 16pt;
+	FONT-WEIGHT: lighter;
+	width: 90%;
+    float:left;
+}
+#Help
+{
+	margin: 0px 0px 0px 0px;
+	padding: 1px 0px 0px 0px;
+	text-align:right;
+	width: 10%;
+    float:left;      
+}
+
+#TestMode
+{
+    display: block;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    FONT-SIZE: 13px;
+    height: 30px;
+    line-height: 30px;
+	text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #E68900, #ff9800);
+    background-color: #ff9800;
+}
+
+#TestMode:hover
+{
+    background: linear-gradient(to bottom, #ff9800, #E68900);
+    background-color: #E68900;
+}
+
+#TestMode:focus, 
+#TestMode:active 
+{
+    outline: #666666 dotted 1px;
+    background: linear-gradient(to bottom, #ff9800, #E68900);
+    background-color: #E68900;
+}
+
+#TestMode .TestModeText
+{
+	margin-right:60px;
+}
+#TestMode .TestModeLink
+{
+	position: absolute; 
+	top:0px; 
+	right:0px; 
+	width:75px;
+	text-align: right;
+	padding-right: 10px;
+}
+#PayBill
+{
+	position:relative;
+	text-align: center;
+    background-color: #FFFF00;
+    color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    height: 30px;
+    line-height: 30px;
+    border-top: 2px solid #ffffff;
+}
+#PayBill .PayBillText
+{
+	margin-right:60px;
+}
+#PayBill .PayBillLink
+{
+	position: absolute; 
+	top:0px; 
+	right:0px; 
+	width:100px;
+	text-align: right;
+	padding-right: 10px;
+}
+.UpsellTopBar
+{
+	background-color: #E9EAEB;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	/*margin: -13px -3px 10px -18px;*/
+}
+.UpsellTopBar span
+{
+	COLOR: #023C59;
+	font-family: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 14pt;
+}
+UL.Square
+{ 
+	list-style-image: url(/images/Box_bullet.gif);
+	margin: 0 0 10px 20px;
+	padding: 0 0 0 0px;	
+}
+UL.Square LI
+{ 	
+	margin: 5px;			
+}
+
+/* Styles used for Tip box */
+.TipBox
+{
+	background-color: #F7F7DE; 
+	padding-bottom: 2px;
+}
+.TipHeading
+{
+	background-color:#F7F7DE;
+	padding: 0 5px 0 5px;
+	margin-left: 5px;
+	line-height: 10px;
+	position:relative; 
+	left:7px; 
+	top:7px; 				
+	z-index:1;
+	overflow: visible;
+}
+.TipContent
+{
+	border: solid 1px #CCCCCC; 
+	margin: 0 8px 6px 8px;
+	padding: 10px 10px 10px 10px; 
+}	
+TABLE.Tip
+{
+	border: solid 1px #CCCCCC; 
+	margin-bottom: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+				
+}	
+DIV.Tip
+{
+	position:relative; 
+	left:7px; 
+	top:8px; 				
+	background-color:#F7F7DE;
+	z-index:1;
+	overflow: visible;
+}
+.BillingNotice
+{
+	padding: 7px;
+	margin: 3px 3px 0px 3px;
+	border-top: solid 1px #E3E3E3;
+	background-color: #F7F7DE;
+	height: 100%;
+}
+Div.AmountDue
+{
+	font-weight:bold;
+	padding: 5px;
+}
+SPAN.AmountDue 
+{
+    border: solid 1px #000000; 
+    padding: 7px;
+}
+
+
+/* End  - Styles used for Tip box */
+
+
+
+Table.TopNav TR TD 
+{
+	width: 0px !important;
+}
+
+
+.WFHeader{
+height:40px;
+margin-top:33px;
+margin-left:10px;
+margin-right:10px;
+background-color:red;
+filter:Alpha(Opacity=70);
+Opacity:.70;
+padding-top:2px;
+padding-left:10px;
+padding-right:10px;
+text-align:left;
+color:white;
+font:bold arial 12pt;
+}
+.WFHeader TD {
+color:white;
+font:bold arial 12pt;
+font-weight:bold;
+}
+
+UL.Tips LI
+{
+	margin:10px 0px 15px 0px;
+	padding-left: 15px;
+}
+
+/* Styles used for basic AVS page */
+TD.AvsTabularCell
+{
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	padding: 8px;
+	text-align: center;
+}
+TD.AvsTabularCellHeader{
+	font-weight: bold;
+	font-size: 10pt;
+	width: 125px;
+}
+TD.AvsTabularCellAdj
+{
+	border-right: 1px solid #000000;
+}
+TD.AvsTabularCellBtm
+{
+	border-bottom: 1px solid #000000;
+}
+TD.AvsTabularCellBold
+{
+	font-weight: bold;
+}
+TD.AvsTabularCellRed
+{
+	color: #cc0000;
+}
+TD.AvsTabularCellGreen
+{
+	color: #339900;
+}
+/* End - Styles used for basic AVS page */
+
+/* Styles used for advanced AVS page */
+.AVSGrid {
+	border-left: 1px solid #d6d6d6;
+	border-top: 1px solid #d6d6d6;
+	border-right: 1px solid #d6d6d6;
+	width: 100%;
+}
+.AVSGrid TD {
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #d6d6d6;
+	text-align: center;
+	vertical-align: middle;
+	padding: 3px;
+}
+.AVSGrid TD.SubHeaderFont {
+	border-right: 1px solid #dcdcdc;
+}
+.AVSGrid .Green {
+	color: #339900;
+	font-weight: bold;
+}
+.AVSGrid .Red {
+	color: #cc0000;
+	font-weight: bold;
+}
+/* End - Styles used for advanced AVS page */
+
+TD.CheckBoxLabel
+{
+	text-align:center;
+}
+.FDSOuterBorderRight
+{
+	border-right: solid 2px #63616B;
+}
+.FDSOuterBorderLeft
+{
+	border-left: solid 2px #63616B;
+}
+.FDSOuterBorderTop
+{
+	border-top: solid 2px #63616B;
+}
+.FDSOuterBorderBottom
+{
+	border-bottom: solid 2px #63616B;
+}
+.AFDSBottomBorder
+{
+	border-bottom: solid 1px #F1D771;
+}
+.AFDSTableItem
+{
+	background-color:#FFE57F !important;
+}
+.AFDSTableItemFree
+{
+	background-color: #E5FFBF;
+}
+.AFDSTableItemBasic
+{
+	background-color: #EDEDED;
+}
+.AFDSRightText
+{
+	color:White !important;
+	background-color:#CBA302 !important;
+	text-align:center;
+	width:10px;
+}
+.AFDSRightTextFree
+{
+	color: White;
+	background-color: #799A00;
+	text-align: center;
+	width: 10px;
+}
+.AFDSRightTextBasic
+{
+	color: White;
+	background-color: #9B9B9B;
+	text-align: center;
+	width: 10px;
+}
+.AFDSTitle
+{
+	background-color:#F1D771 !important;
+}
+.AFDSSubTitle
+{
+	background-color:#F9DF79 !important;
+}
+
+/* Styles used for confirmation floating div popup */
+div.message_screen
+{    
+    border: 0px solid #000000;
+	filter : Alpha(Opacity=50);
+	opacity : .50; 
+	position : absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #FFFFFF;
+	z-index:15;
+	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+}
+div.control_window
+{
+	position: absolute;
+	border: 4px outset #336699;
+	background-color: #FFFFFF;	
+	z-index:20;
+	width:600px;
+	left: 50%;
+	margin-left: -300px;
+}
+div.control_window .control_window_title
+{
+	margin: 15px 10px 10px 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #666666;
+	COLOR: #023C59;
+	font-family: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 11pt;
+	FONT-WEIGHT: bold;
+}
+div.control_window .control_window_body
+{
+	margin: 0px 10px 10px 10px;
+	font: normal 8pt Arial;
+}
+div.control_window .control_window_commands
+{
+	margin: 5px 10px 20px 10px;
+	text-align: center;
+}
+div.control_window .control_window_commands INPUT
+{
+	width: 75px;
+	margin-right: 5px;
+}
+/* End - Styles used for confirmation floating div popup */
+
+/* Styles used for confirmation floating div popup New */
+div.message_screen_new
+{    
+    border: 0px solid #000000;
+	filter : Alpha(Opacity=50);
+	opacity : .50; 
+	position : absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #FFFFFF;
+	z-index:15;
+	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+}
+div.control_window_new
+{
+	position: absolute;
+	background-color: white;	
+	z-index:20;
+	width:500px;
+	left: 50%;
+	margin-left: -300px; 
+    padding: 0 14px;
+    vertical-align: middle;
+    border: 1px hidden darkgray;
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px #888888;
+    font-family: arial;
+    font-size: 12px;
+}
+div.control_window_new .control_window_title_new
+{
+	margin: 0px -15px 0px -15px;
+	padding: 10px 10px 10px 20px;
+	border-bottom: 1px solid #666666;
+	COLOR: white;
+	font-family: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 11pt;
+	FONT-WEIGHT: bold;   
+	border-radius: 15px 15px 0px 0px; 
+    background-color: #2E5C82;
+}
+div.control_window_new .control_window_body_new
+{
+	margin: 20px 10px 20px 5px;
+	font: normal 12pt Arial;
+}
+div.control_window_new .control_window_commands_new
+{
+	margin: 5px 10px 20px 10px;
+	text-align: right;
+}
+div.control_window_new input[type=button] 
+{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+div.control_window_new input[type=button]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+div.control_window_new input[type=button]:hover,
+div.control_window_new input[type=button]:focus {
+  color: #333;
+  text-decoration: none;
+}
+div.control_window_new input[type=button]:active,
+div.control_window_new input[type=button].active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+div.control_window_new input[type=button].disabled,
+div.control_window_new input[type=button][disabled]{
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  opacity: .65;
+}
+
+div.control_window_new input[id=btnConfirmYes] 
+{
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+div.control_window_new input[id=btnConfirmYes]:hover,
+div.control_window_new input[id=btnConfirmYes]:focus,
+div.control_window_new input[id=btnConfirmYes]:active,
+div.control_window_new input[id=btnConfirmYes].active{
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+div.control_window_new input[id=btnConfirmYes]:active,
+div.control_window_new input[id=btnConfirmYes].active{
+  background-image: none;
+}
+div.control_window_new input[id=btnConfirmYes].disabled,
+div.control_window_new input[id=btnConfirmYes][disabled],
+div.control_window_new input[id=btnConfirmYes].disabled:hover,
+div.control_window_new input[id=btnConfirmYes][disabled]:hover,
+div.control_window_new input[id=btnConfirmYes].disabled:focus,
+div.control_window_new input[id=btnConfirmYes][disabled]:focus,
+div.control_window_new input[id=btnConfirmYes].disabled:active,
+div.control_window_new input[id=btnConfirmYes][disabled]:active,
+div.control_window_new input[id=btnConfirmYes].disabled.active,
+div.control_window_new input[id=btnConfirmYes][disabled].active{
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+div.control_window_new input[id=btnConfirmCancel]{
+  font-weight: normal;
+}
+/* End - Styles used for confirmation floating div popup New */
+
+/* Styles used for confirmation floating div screen */
+div.message_screen2
+{
+    border: 0px solid #000000;
+	filter : Alpha(Opacity=50);
+	opacity : .50; 
+	position : absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #666666;
+	z-index:15;
+	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+}
+div.control_window2
+{
+	position : absolute;
+	left: 50%;
+	margin-left: -300px;
+	border: 2px solid #CCCCCC;
+	background-color: #FFFFFF;	
+	z-index:20;
+	width: 600px;/*75%;*/
+}
+div.control_window2 .control_window_body2
+{
+	padding: 0px 10px 10px 10px;
+	font: normal 8pt Arial;
+}
+/* End - Styles used for confirmation floating div screen */
+
+
+/* Styles used for CIM */
+
+.CIM_SubHeaderFont
+{
+	background-color: #F2F2F2;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+}
+.CIM_SubHeaderFont_Color
+{
+	background-color: #F2F2F2;
+	color: #000000;
+}
+.CIM_MainTableRow_Left
+{
+	width:150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.CIM_MainTableRow2_Left
+{
+	width:125px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.CIM_Bold
+{
+	font-weight: bold;
+}
+.CIM_Text
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.CIM_Text_Pad
+{
+	padding: 5px 5px 5px 5px;
+}
+.CIM_Text_Small
+{
+	font-size: 11px;
+}
+.CIM_Cursor
+{
+	cursor:pointer;		
+}
+.CIM_Text_Large
+{
+	font-size: 14px;
+}
+.CIM_Small_Button
+{
+	font-family:Small Fonts;
+	font-size: 9px;
+}
+.CIM_Text_NoBold
+{
+	font-weight: normal !important;
+}
+A.CIM:link
+{
+    TEXT-DECORATION: none;
+}
+A.CIM:visited
+{
+    TEXT-DECORATION: none;
+}
+A.CIM:hover
+{
+    TEXT-DECORATION: underline
+}
+A.CIM:active
+{
+    TEXT-DECORATION: none;
+}
+
+/* End - Styles used for CIM */
+
+/* Styles used for Transaction Details */
+
+.TrnDetailTop_TDSpace
+{
+	padding-left:5px;
+}
+.TrnDetailTop_Table
+{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.TrnDetailTop_Body
+{
+	background: #f7f7de;
+	border: 1px solid #cccc99;
+}
+.TrnDetailTop_Header
+{
+	font-size:larger;
+	font-weight:bold;
+}
+.TrnDetailTop_DetailsHeader
+{
+	background: #cccc99;
+	font-weight:bold;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.TrnDetailTop_Seperator
+{
+	background-color: #d0d0bf;
+	height: 1px;
+}
+.TrnDetailTop_Space
+{
+	height: 5px;
+}
+/* End - Styles used for Transaction Details */
+
+/* Tabs (ARB, etc) */
+Table.TabNav
+{
+	border-bottom: solid 2px #dddddd;
+	height: 30px;
+}
+Table.InactiveTab, Div.InactiveTab
+{
+	height: 100%;
+	vertical-align: middle;
+	padding: 0px 5px 0px 5px;
+	background-color: #aaaaaa;
+}
+Table.ActiveTab, Div.ActiveTab
+{
+	background-color: #dddddd;
+}
+A.InactiveTab
+{
+	text-decoration: none;
+}
+A.InactiveTab:hover
+{
+	text-decoration: underline;
+}
+/* END - Tabs */
+/* settings */
+.BarVert, #MainWin
+{
+    text-align: left;
+}
+/* end settings */
